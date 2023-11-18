@@ -1,0 +1,135 @@
+head:
+  title: "Talina Shrotriya | Software Engineer"
+  description: "Personal site for Talina Shrotriya, Engineering Manager at Couchbase. With a background as computer engineer and experience both as a web and mobile developer and team lead, in multi-cultural environments in Spain, the Netherlands and Denmark. You can find contact information, as well as availability for work, up-to-date curriculum and previous experience."
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Talina."
+  subtitle: "Engineering Manager at Couchbase"
+  description: "I am currently employed at Couchbase, a leading cloud-first NoSQL database company. I am passionate about solving challenging systems problems, where I can apply my skills and knowledge in architecture, design, scalability, reliability, and performance. <br><br>I enjoy mentoring and guiding my team, delivering new features on time, and ensuring customer satisfaction. My goal is to create innovative and impactful solutions in the technology space."
+  image:
+    alt: "Profile picture of Talina Shrotriya (@talinashro)"
+    x: "images/talina.jpg"
+    _2x: "images/talina@2x.jpg"
+  imageMobile:
+    alt: "Profile picture of Talina Shrotriya (@talinashro)"
+    x: "images/talina.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/talinashrotriya/"
+
+    - icon: "github"
+      URL: "https://github.com/talina06"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/talinashro"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead" style="font-size:16px;">
+    My career journey has been diverse, starting as a quality engineer at Veritas. 
+    Eager to explore entrepreneurial endeavors, I ventured into founding a tech company, where I created a hyper-local retail product catering to Indian fashion brands. 
+    </p>
+    <p class="lead" style="font-size:16px;">
+    Soon after, I joined a fintech company, where I became an integral member of the Site Reliability Engineering team. In this role, I contributed to shaping and implementing SRE practices and culture from the very foundation, & addressing core systems and scalability challenges. 
+    My journey led me to Couchbase, where I initially served as a backend systems engineer. Over time, I transitioned into a leadership position, guiding my team in delivering features for Couchbase&#39;s cloud product. 
+    This evolution has allowed me to leverage my diverse background and contribute to the continued success and innovation within Couchbase.
+    </p> 
+    <p class="lead" style="font-size:16px;">
+    I’m very determined, a fast-learner, curious and a natural leader. I lead by example and work side by side with my teams. I bring business and product vision to tech teams.
+    </p>'
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/talinashrotriya/"
+  image:
+    x: "images/about-me.jpg"
+    _2x: "images/about-me@2x.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Pune"
+      year: "2010-2014"
+      degree: "Bachelor in Computer Engineering | Edge Computing & Artificial Intelligence"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I have 10+ years of experience in software development, engineering leadership, and cloud computing, working with various technologies and platforms across different domains and industries."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/talinashrotriya/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download résumé"
+    URL: "/files/cv_talina_shrotriya.pdf"
+
+# talks
+talks:
+  enable: true
+  title: "Talks"
+  content: '<p class="lead" style="font-size:16px;">
+    My career journey has been diverse, starting as a quality engineer at Veritas. 
+    Eager to explore entrepreneurial endeavors, I ventured into founding a tech company, where I created a hyper-local retail product catering to Indian fashion brands. 
+    </p>
+    <p class="lead" style="font-size:16px;">
+    Soon after, I joined a fintech company, where I became an integral member of the Site Reliability Engineering team. In this role, I contributed to shaping and implementing SRE practices and culture from the very foundation, & addressing core systems and scalability challenges. 
+    My journey led me to Couchbase, where I initially served as a backend systems engineer. Over time, I transitioned into a leadership position, guiding my team in delivering features for Couchbase&#39;s cloud product. 
+    This evolution has allowed me to leverage my diverse background and contribute to the continued success and innovation within Couchbase.
+    </p> 
+    <p class="lead" style="font-size:16px;">
+    I’m very determined, a fast-learner, curious and a natural leader. I lead by example and work side by side with my teams. I bring business and product vision to tech teams.
+    </p>'
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/talinashrotriya/"
+  image:
+    x: "images/about-me.jpg"
+    _2x: "images/about-me@2x.jpg"
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Sameer Bhide"
+      position: "Principle Engineer II | Commvault"
+      content: "Talina has been outstanding in anything and everything she worked on. Thoroughly professional, studious and always hungry for doing more work, I have hardly seen any fresher so committed to the work. Talina has been exceptional in handling the pressure situations and adapting to changing needs of the project making her one of the most valuable member in the team and a 'go-to' person. I recommend Talina as she will be a definite asset to the team she joins."
+
+    - name: "Nishant Raj"
+      position: "Senior Engineering Manager | Amazon"
+      content: "Talina has always been prompt in her work and could grasp ideas quickly. In addition to fulfilling her duties, Talina has also been an important contributor to the Design and Framework planning for a robust automation project at Symantec. Talina is a well connected professional who always takes the time to support anyone in her network. She has a very impressive background and profile and I recommend Talina, as she'll be a great addition to any team."
+
+    - name: "Arun Garg"
+      position: "Sr. Principle SQA | Symantec"
+      content: "I worked with Talina and other students during their Final Year BE project as their Project Mentor. I had this idea of building a tool which can find out the coverage of source code documentation to help other developers. Talina picked up the idea as well as design quickly. She was prompt is asking right set of design questions to iron out the grey areas that made the design robust. She took the lead in planning how to divide the various module as well as tasks assignment based on their interest and areas of interest. She completed her tasks on time with quality. Overall the project went pretty well and in the end as project mentor I was quite happy with the work. Also the project was very well appreciated by External review in their college. Keep up the great work Talina!!"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formspree.io/f/xleyknvr"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"

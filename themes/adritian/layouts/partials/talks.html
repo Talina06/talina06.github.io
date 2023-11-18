@@ -1,0 +1,77 @@
+{{ if .Site.Data.homepage.talks.enable }}
+<section class="section section--border-bottom rad-animation-group" id="talks">
+    <div class="container rad-fade-down">
+        <h2>{{ .Site.Data.homepage.talks.title }}</h2>
+        <p class="lead">
+            From time to time I give presentations, talks or participate in meetups about the topics that I am
+            passionate about.
+        </p>
+
+        <div style="text-align: center">
+            <p class="lead" style="text-align:center;padding-top: 25px;">
+                Conference Talks (2018-2021)
+            </p>
+            <iframe height="250" src="https://www.youtube.com/embed/Jrk1vK2yrJA?autoplay=0&mute=1" width="270">
+            </iframe>
+
+            <iframe height="250" src="https://www.youtube.com/embed/0lghq4jAxEA?autoplay=0&mute=1" width="270">
+            </iframe>
+
+            <iframe height="250" src="https://www.youtube.com/embed/MZFDtqF6gkU?autoplay=0&mute=1" width="270">
+            </iframe>
+
+            <iframe height="250" src="https://www.youtube.com/embed/HkanPWyKVXU?autoplay=0&mute=1" width="270">
+            </iframe>
+        </div>
+
+        <div class="public-speaking-images" style="text-align: center">
+            <p class="lead" style="text-align:center;padding-top: 25px;">
+                Meetups & Trainings (2016-2021)
+            </p>
+            <img alt="Women in Tech Meetup (23 March 2019) - Building Reliable and One-click Deployment Cycles"
+                 height="250"
+                 onclick="zoomImage(this)" src="/img/public-speaking/women_in_tech_meetup.png" width="320">
+
+            <img alt="Pune User Group Meetup (27 Nov 2021) - Private Networking Made Accessible in Azure"
+                 height="250"
+                 onclick="zoomImage(this)" src="/img/public-speaking/pune_user_group_meetup.jpg" width="320">
+
+            <img alt="Engineering College Training Speaker (Jan-Feb 2016) - C++ & Object Oriented Programming"
+                 height="250"
+                 onclick="zoomImage(this)" src="/img/public-speaking/college_training_sessions.png" width="320">
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="imageModal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imageContent">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            function zoomImage(image) {
+                // Get the modal
+                var modal = document.getElementById("imageModal");
+
+                var modalImg = document.getElementById("imageContent");
+                var captionText = document.getElementById("caption");
+
+                image.onclick = function () {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+    </div>
+    </div>
+</section>
+{{ end }}
