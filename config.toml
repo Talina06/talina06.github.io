@@ -1,0 +1,79 @@
+baseURL = "https://www.talinashrotriya.com/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Talina Shrotriya · Software Engineer"
+theme = "adritian"
+
+[build]
+writeStats = true
+
+# Plugins
+[params.plugins]
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "css/main.css"
+[[params.plugins.css]]
+link = "css/rad-icons.css"
+[[params.plugins.css]]
+link = "css/custom.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/rad-animations.js"
+[[params.plugins.js]]
+URL = "js/sticky-header.js"
+
+
+# navigation
+[menu]
+[[menu.header]]
+name = "About"
+URL = "index.html#about"
+weight = 2
+
+[[menu.header]]
+name = "Experience"
+URL = "index.html#experience"
+weight = 3
+
+[[menu.header]]
+name = "Talks"
+URL = "index.html#talks"
+weight = 4
+
+[[menu.header]]
+name = "Testimonials"
+URL = "index.html#testimonials"
+weight = 5
+
+[[menu.header]]
+name = "Contact"
+URL = "index.html#contact"
+weight = 6
+
+[[menu.footer]]
+name = "💁‍♂️ About"
+URL = "index.html#about"
+weight = 2
+
+[[menu.footer]]
+name = "🎤 Public Speaking"
+URL = "index.html#talks"
+weight = 4
+
+[[menu.footer]]
+name = "📨 Contact"
+URL = "index.html#contact"
+weight = 5
+
+
+[params]
+sections = ["showcase", "about", "education", "experience", "talks", "testimonial", "contact"]
+
+[params.logo]
+text1 = "Talina"
+text2 = "Shrotriya"
+
+[params.footer]
+copyright = "© Talina Shrotriya. <a href=\"https://github.com/zetxek/adrianmoreno.info\">Built with Hugo Themes.</a>."
