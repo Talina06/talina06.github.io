@@ -28,36 +28,64 @@
             <p class="lead" style="text-align:center;padding-top: 25px;">
                 Meetups & Trainings (2016-2021)
             </p>
-            <img alt="Women in Tech Meetup (23 March 2019) - Building Reliable and One-click Deployment Cycles"
-                 height="250"
-                 onclick="zoomImage(this)" src="/img/public-speaking/women_in_tech_meetup.png" width="320">
+            <img alt="Pune User Group Meetup (27 November 2021) - Private Networking Made Accessible in Azure"
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'https://www.meetup.com/puneusergroup/events/281922755/')" src="/img/public-speaking/pune_user_group_meetup.jpg">
 
-            <img alt="Pune User Group Meetup (27 Nov 2021) - Private Networking Made Accessible in Azure"
-                 height="250"
-                 onclick="zoomImage(this)" src="/img/public-speaking/pune_user_group_meetup.jpg" width="320">
+            <img alt="Women Who Code Meetup - Learning Go Series Part 3 (5 October 2019) - Concurrent Programming in Go."
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'https://www.meetup.com/women-who-code-pune/events/264775582/')" src="/img/public-speaking/womenwhocode-golang-workshop-3.jpg">
+
+            <img alt="Women Who Code Meetup - Learning Go Series Part 2 (28 September 2019) - Mastering the basics of Go."
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'https://www.meetup.com/women-who-code-pune/events/264775556/')" src="/img/public-speaking/womenwhocode-golang-workshop-2.jpg">
+
+            <img alt="Women Who Code Meetup - Learning Go Series Part 1 (21 September 2019) - Building Simple, Reliable and Efficient Software."
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'https://www.meetup.com/women-who-code-pune/events/264775172/')" src="/img/public-speaking/womenwhocode-golang-workshop-1.jpg">
+
+            <img alt="Women in Tech Meetup (23 March 2019) - Building Reliable and One-click Deployment Cycles"
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'http://womenintech.rapidcircle.com/')" src="/img/public-speaking/women_in_tech_meetup.png">
+
+            <img alt="Engineering College Training Speaker (February 2017) - Java SE 8 Training"
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'http://www.pccoepune.com/pdf/newswire_pdf/Vol_16_July%202017.pdf')" src="/img/public-speaking/pccoe-academic-workshop-2017.png">
+
+            <img alt="Engineering College Training Speaker (September 2016) - Website Development Using PHP"
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'http://www.pccoepune.com/pdf/newswire_pdf/Vol_15_Jan%202017.pdf')" src="/img/public-speaking/pccoe-academic-workshop-sep-2016.png">
+
+            <img alt="Engineering College Training Speaker (Feb-Mar 2016) - Mobile Application Development Using Android"
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'http://www.pccoepune.com/pdf/newswire_pdf/Vol_14_July%202016.pdf')" src="/img/public-speaking/pccoe-academic-workshop-feb-2016.png">
 
             <img alt="Engineering College Training Speaker (Jan-Feb 2016) - C++ & Object Oriented Programming"
-                 height="250"
-                 onclick="zoomImage(this)" src="/img/public-speaking/college_training_sessions.png" width="320">
+                 height="250" width="380" style="border: #000000 2px outset; margin-bottom:4px"
+                 onclick="zoomImage(this, 'https://science.vishwaniketan.edu.in/vap/')" src="/img/public-speaking/vishwaniketan-college-training-session.png">
         </div>
 
         <!-- The Modal -->
         <div class="modal" id="imageModal">
             <span class="close">&times;</span>
             <img class="modal-content" id="imageContent">
+            <a id="urlRef" target="_blank" rel="noopener noreferrer">
             <div id="caption"></div>
+            </a>
         </div>
 
         <script>
-            function zoomImage(image) {
+            function zoomImage(image, url) {
                 // Get the modal
                 var modal = document.getElementById("imageModal");
 
                 var modalImg = document.getElementById("imageContent");
                 var captionText = document.getElementById("caption");
+                var urlRef = document.getElementById("urlRef")
 
                 image.onclick = function () {
                     modal.style.display = "block";
+                    urlRef.href = url
                     modalImg.src = this.src;
                     captionText.innerHTML = this.alt;
                 }
