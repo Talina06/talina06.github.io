@@ -52,8 +52,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/talinashrotriya/"
   image:
-    x: "images/about-me.jpg"
-    _2x: "images/about-me@2x.jpg"
+    x: "images/about-me.png"
+    _2x: "images/about-me@2x.png"
 
 # education
 education:
@@ -100,8 +100,8 @@ talks:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/talinashrotriya/"
   image:
-    x: "images/about-me.jpg"
-    _2x: "images/about-me@2x.jpg"
+    x: "images/about-me.png"
+    _2x: "images/about-me@2x.png"
 
 # testimonial
 testimonial:
