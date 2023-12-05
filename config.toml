@@ -70,6 +70,7 @@ weight = 4
 
 [params]
 sections = ["showcase", "about", "education", "experience", "talks", "testimonial", "contact"]
+googleTagManagerID = "G-JL64NH4VWZ"
 
 [params.logo]
 text1 = "Talina"
